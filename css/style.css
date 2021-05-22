@@ -1,0 +1,31 @@
+.modulo2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.modulo2__left {
+    width: 440px;
+    padding: 25px;
+    background: #DDEEFE;
+    margin-top: 20px;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.modulo2__right {
+    width: 440px;
+    padding: 25px;
+    background: #D9F6F1;
+    margin-top: 20px;
+
+}
+
+.modulo2_img {
+    border-top-left-radius: 60px 60px;
+    border-top-right-radius: 60px 60px;
+}
