@@ -1,0 +1,70 @@
+.footer{
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 165px;
+    }
+    
+    .footer-tex {
+        width: 300px;
+        font-size: 30px;
+        font-family: Calibre;
+    }
+    
+    .footer-email {
+        background-color: #AF0C48;
+    }
+    
+    .footer-have {
+        background-color: #0A0A14;
+    }
+    
+    .footer-personalblog {
+       
+    }
+    
+    .padre {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .column1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer-iosipratama {
+        margin-right: 113px;
+        background-color: #0A0A14;
+    }
+    
+    .column2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 20px;
+    }
+    
+    .footer-personalblog {
+        margin-right: 20px;
+        background-color: #0A0A14;
+    }
+    
+    .footer-dribbble {
+        margin-right: 20px;
+        background-color: #EA4C89;
+    }
+    
+    .footer-medium {
+        margin-right: 20px;
+        background-color: #00AB6B;
+    }
+     
+    .footer-behance {
+        margin-right: 20px;
+        background-color : #1769FF;
+    }
+    
+    .footer-linkedin {
+        margin-right: 20px;
+        background-color : #0077B5;
+    }
