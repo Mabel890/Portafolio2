@@ -1,67 +1,72 @@
+
+/*footer*/
+
 .footer {
     margin-top: 40px;
     margin-right: 100px;
     margin-left: 165px;
     }
     
-    .footer-tex {
+    .footer__tex {
         width: 300px;
         font-size: 30px;
         font-family: calibre
     }
     
-    .footer-email {
+    .footer__email {
         color: #AF0C48;
     }
-    
-    .footer-have {
-        color: #0A0A14;
-    }
-    
+
     .padre {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         padding-top: 80px;
     }
-    
-    .column1 {
+
+    .hijo {
         display: flex;
         flex-wrap: wrap;
     }
-    
-    .footer-iosipratama {
+
+    .usuario {
         margin-right: 113px;
         color: #0A0A14;
     }
+
+    .footer__have {
+        color: #0A0A14;
+    }
     
-    .column2 {
+    .redes__sociales{
         display: flex;
         flex-wrap: wrap;
         margin-right: 20px;
     }
     
-    .footer-personalblog {
+    .redes__sociales {
         margin-right: 20px;
         color: #0A0A14;
     }
     
-    .footer-dribbble {
+    .redes__sociales {
         margin-right: 20px;
         color: #EA4C89;
     }
     
-    .footer-medium {
+    .redes__sociales__{
         margin-right: 20px;
         color: #00AB6B;
     }
      
-    .footer-behance {
+    .redes__sociales {
         margin-right: 20px;
        color : #1769FF;
     }
     
-    .footer-linkedin {
+    .redes__sociales {
         margin-right: 20px;
         color : #0077B5;
     }
+
+    /* fin del footer/*
