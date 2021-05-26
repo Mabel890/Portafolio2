@@ -1,3 +1,35 @@
+/* Modulo 1 - Perfil */
+
+
+.perfil{
+    padding: 100px 200px 100px 165px;
+    position: relative;
+}
+.perfil__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.perfil__left{
+    width: 45%;
+    padding-right: 60px;
+}
+.perfil__right{
+    width: 45%;
+}
+.perfil h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.perfil p{
+    font-size: 16px;
+}
+.perfil__icon{
+    position: absolute;
+    top: 1em;
+}
+
 /* ****************** Modulo 3. my last freelance works */
 
 .freelance {
