@@ -30,123 +30,73 @@
     top: 1em;
 }
 
+/* ****************** Modulo 3. my last freelance works */
 
-/* Inicio Modulo 4 */
-.activities{
-    padding: 100px 200px 100px 165px;
-    position: relative;
-
-}
-.activities__title{
-    color:#0A0A14;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    letter-spacing: 0.1em;
-   
+.freelance {
+  margin: 0px 5%;
+  padding: 0px;
 }
 
-.activities h1{
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 67px;   
-    letter-spacing: 0.05em; 
+.freelance__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
 }
 
-.writing__section{
-    display: flex;
-    flex-wrap: wrap;    
+.freelance__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.writing__section--img{
-    align-self: baseline;
+.freelance__section--imagen {
+  width: 700px;
 }
 
-.writing__section-medium{
-    padding-left: 20px;
+.freelance__content {
+  background: white;
+  width: 30%;
+  height: 30%;
+  margin-left: -80px;
+  padding: 10px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
-.medium__title{
-    color:black;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    font-size: 29px;
+.freelance__content--title span {
+  font-size: x-large;
 }
 
-.medium__content{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    color:#0A0A14;
+.freelance__flag {
+  width: 20px;
+  padding: 2px;
 }
 
-.medium__subtitle{
-    color:#7D7D8D;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    margin-top: 30px;
+.freelance__check {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
 }
 
-.writing__section-medium{
-    width: 50%;
+.freelance__check span {
+  margin: 8px;
 }
 
-.writing__section-medium ul{
-    padding-left: 18px
+/********************** Responsive max 1013px  *******************/
+
+@media screen and (max-width: 1031px) {
+    
+  .freelance__section--imagen {
+    width: 400px;
+    margin: 0px 10%;
+  }
+
+  .freelance__content {
+    width: 80%;
+    margin-top: 50px;
+    margin: 0 10%;
+    box-shadow: 0px 5px 27px 0px rgb(0 0 0 / 20%);
+  }
+
 }
 
-.writing__section-medium ul li::marker{
-    color:#E92577;
-    width: 9px;
-    height: 9px;
-}
 
-.read__medium{
-    display: flex;
-    align-items: center;
-}
-
-.read__medium p{
-    font-size: 16px;
-    color:#000000;
-    font-weight: bold;
-}
-.personal__blog{
-    margin-left: 40%;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-
-.personal__blog p:nth-child(1){
-    font-family:'Playfair Display', serif;
-    font-weight: bold;
-    font-size: 29px;
-    margin-bottom: 10px;
-}
-.personal__blog p:nth-child(2){
-    margin-top: 0;
-}
-
-.footer{
-    margin-left: 40%;
-    font-size: 16px;
-    color: #000000;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.activities__icon1{
-    position: absolute;
-    left: 123px;
-    top: 690px;
-}
-
-.activities__icon2{
-    position: absolute;
-    right: 105px;
-    top:500px;
-}
-
-/* fin Modulo 4 */
+/* ****************** Modulo 3. Final my last freelance works */
