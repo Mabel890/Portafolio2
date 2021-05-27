@@ -19,14 +19,14 @@
         color: #AF0C48;
     }
 
-    .padre {
+    .footer1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         padding-top: 80px;
     }
 
-    .hijo {
+    .footer2 {
         display: flex;
         flex-wrap: wrap;
     }
@@ -71,5 +71,5 @@
         color : #0077B5;
     }
 
-    
+
     /* fin del footer/*
