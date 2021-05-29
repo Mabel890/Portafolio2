@@ -1,67 +1,185 @@
+/* Inicio Modulo 4 */
+.activities {
+  padding: 100px 200px 100px 165px;
+  position: relative;
+}
+.activities__title {
+  color: #0a0a14;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+.activities h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 67px;
+  letter-spacing: 0.05em;
+}
+
+.writing__section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.writing__section--img {
+  align-self: baseline;
+}
+
+.writing__section-medium {
+  padding-left: 20px;
+}
+
+.medium__title {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 29px;
+}
+
+.medium__content {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: #0a0a14;
+}
+
+.medium__subtitle {
+  color: #7d7d8d;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.writing__section-medium {
+  width: 50%;
+}
+
+.writing__section-medium ul {
+  padding-left: 18px;
+}
+
+.writing__section-medium ul li::marker {
+  color: #e92577;
+  width: 9px;
+  height: 9px;
+}
+
+.read__medium {
+  display: flex;
+  align-items: center;
+}
+
+.read__medium p {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
+.personal__blog {
+  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.personal__blog p:nth-child(1) {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 29px;
+  margin-bottom: 10px;
+}
+.personal__blog p:nth-child(2) {
+  margin-top: 0;
+}
+
 .footer {
-    margin-top: 40px;
-    margin-right: 100px;
-    margin-left: 165px;
-    }
-    
-    .footer-tex {
-        width: 300px;
-        font-size: 30px;
-        font-family: calibre
-    }
-    
-    .footer-email {
-        color: #AF0C48;
-    }
-    
-    .footer-have {
-        color: #0A0A14;
-    }
-    
-    .padre {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding-top: 80px;
-    }
-    
-    .column1 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .footer-iosipratama {
-        margin-right: 113px;
-        color: #0A0A14;
-    }
-    
-    .column2 {
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: 20px;
-    }
-    
-    .footer-personalblog {
-        margin-right: 20px;
-        color: #0A0A14;
-    }
-    
-    .footer-dribbble {
-        margin-right: 20px;
-        color: #EA4C89;
-    }
-    
-    .footer-medium {
-        margin-right: 20px;
-        color: #00AB6B;
-    }
-     
-    .footer-behance {
-        margin-right: 20px;
-       color : #1769FF;
-    }
-    
-    .footer-linkedin {
-        margin-right: 20px;
-        color : #0077B5;
-    }
+  margin-left: 40%;
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.activities__icon1 {
+  position: absolute;
+  left: 123px;
+  top: 690px;
+}
+
+.activities__icon2 {
+  position: absolute;
+  right: 105px;
+  top: 500px;
+}
+
+/* fin Modulo 4 */
+
+.footer {
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-left: 165px;
+}
+
+.footer-tex {
+  width: 300px;
+  font-size: 30px;
+  font-family: calibre;
+}
+
+.footer-email {
+  color: #af0c48;
+}
+
+.footer-have {
+  color: #0a0a14;
+}
+
+.padre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.column1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-iosipratama {
+  margin-right: 113px;
+  color: #0a0a14;
+}
+
+.column2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+
+.footer-personalblog {
+  margin-right: 20px;
+  color: #0a0a14;
+}
+
+.footer-dribbble {
+  margin-right: 20px;
+  color: #ea4c89;
+}
+
+.footer-medium {
+  margin-right: 20px;
+  color: #00ab6b;
+}
+
+.footer-behance {
+  margin-right: 20px;
+  color: #1769ff;
+}
+
+.footer-linkedin {
+  margin-right: 20px;
+  color: #0077b5;
+}
