@@ -5,30 +5,125 @@
     padding: 100px 200px 100px 165px;
     position: relative;
 }
-.perfil__content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+/* Inicio Modulo 4 */
+.activities{
+    padding: 100px 200px 100px 165px;
+    position: relative;
 }
-.perfil__left{
-    width: 45%;
-    padding-right: 60px;
+
+.activities__title{
+    color:#0A0A14;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;   
 }
-.perfil__right{
-    width: 45%;
-}
-.perfil h1{
+
+.activities h1{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 67px;   
+    letter-spacing: 0.05em; 
 }
-.perfil p{
+
+.writing__section{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.writing__section--img{
+    align-self: baseline;
+}
+
+.writing__section-medium{
+    padding-left: 20px;
+}
+
+.medium__title{
+    color:black;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.medium__content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color:#0A0A14;
+}
+
+.medium__subtitle{
+    color:#7D7D8D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin-top: 30px;
 }
-.perfil__icon{
+
+.writing__section-medium{
+    width: 50%;
+}
+
+.writing__section-medium ul{
+    padding-left: 18px
+}
+
+.writing__section-medium ul li::marker{
+    color:#E92577;
+    width: 9px;
+    height: 9px;
+}
+
+.read__medium{
+    display: flex;
+    align-items: center;
+}
+
+.read__medium p{
+    font-size: 16px;
+    color:#000000;
+    font-weight: bold;
+}
+.personal__blog{
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.personal__blog p:nth-child(1){
+    font-family:'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+
+.personal__blog p:nth-child(2){
+    margin-top: 0;
+}
+
+.footer{
+    margin-left: 40%;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.activities__icon1{
     position: absolute;
-    top: 1em;
+    left: 123px;
+    top: 690px;
 }
+
+.activities__icon2{
+    position: absolute;
+    right: 105px;
+    top:500px;
+}
+/* fin Modulo 4 */
 
 /* ****************** Modulo 3. my last freelance works */
 
