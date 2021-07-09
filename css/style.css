@@ -1,6 +1,6 @@
 /* Modulo 1 */
 .perfil__content {
-  padding: 100px 200px 100px 165px;
+  padding: 6.25rem 12.5rem 6.25rem 10.313px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -9,7 +9,7 @@
 
 .perfil__left{
   width: 45%;
-  padding-right: 60px;
+  padding-right: 3.75rem;
 }
 
 .perfil__right{
@@ -19,7 +19,7 @@
 .perfil h1{
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 .perfil p{
@@ -72,7 +72,7 @@
 
 
 .freelance {
-  padding: 100px 200px 100px 165px;
+  padding: 6.25rem 12.5rem 6.25rem 10.313px;
   position: relative;
 }
 
@@ -135,7 +135,7 @@
 
 /* Inicio Modulo 4 */
 .activities {
-  padding: 100px 200px 100px 165px;
+  padding: 6.25rem 12.5rem 6.25rem 10.313px;
   position: relative;
 }
 
