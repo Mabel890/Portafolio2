@@ -1,8 +1,144 @@
-/* Inicio Modulo 4 */
-.activities {
-  padding: 100px 200px 100px 165px;
+/* Modulo 1 */
+.perfil__content {
+  padding: 6.25rem 12.5rem 6.25rem 10.313px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.perfil__left{
+  width: 45%;
+  padding-right: 3.75rem;
+}
+
+.perfil__right{
+  width: 45%;
+}
+
+.perfil h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.perfil p{
+  font-size: 16px;
+}
+
+.perfil__icon{
+  position: absolute;
+  top: 1em;
+}
+
+
+/* Modulo 2 */
+
+
+.modulo2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.modulo2__left {
+    width: 440px;
+    padding: 25px;
+    background: #DDEEFE;
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.modulo2__right {
+    width: 440px;
+    padding: 25px;
+    background: #D9F6F1;
+    margin-top: 20px;
+}
+
+.modulo2_img {
+    border-radius: 60px 60px 0 0;
+}
+
+
+/* END Modulo 2 */
+
+
+/* ****************** Modulo 3. my last freelance works */
+
+
+.freelance {
+  padding: 6.25rem 12.5rem 6.25rem 10.313px;
   position: relative;
 }
+
+.freelance__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+}
+
+.freelance__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.freelance__section--imagen {
+  width: 700px;
+}
+
+.freelance__content {
+  background: white;
+  width: 30%;
+  height: 30%;
+  margin-left: -80px;
+  padding: 10px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.freelance__content--title span {
+  font-size: x-large;
+}
+
+.freelance__check {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+}
+
+.freelance__check span {
+  margin: 8px;
+}
+
+/********************** Responsive max 1013px  *******************/
+
+@media screen and (max-width: 1031px) {
+    
+  .freelance__section--imagen {
+    width: 400px;
+    margin: 0px 10%;
+  }
+
+  .freelance__content {
+    width: 80%;
+    margin-top: 50px;
+    margin: 0 10%;
+    box-shadow: 0px 5px 27px 0px rgb(0 0 0 / 20%);
+  }
+
+}
+
+
+/* Inicio Modulo 4 */
+.activities {
+  padding: 6.25rem 12.5rem 6.25rem 10.313px;
+  position: relative;
+}
+
 .activities__title {
   color: #0a0a14;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -16,6 +152,18 @@
   font-size: 50px;
   line-height: 67px;
   letter-spacing: 0.05em;
+}
+
+.activities__icon1 {
+  position: absolute;
+  left: 123px;
+  top: 690px;
+}
+
+.activities__icon2 {
+  position: absolute;
+  right: 105px;
+  top: 500px;
 }
 
 .writing__section {
@@ -61,43 +209,6 @@
   padding-left: 18px;
 }
 
-
-/* Modulo 2 */
-
-
-.modulo2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-}
-
-.modulo2__left {
-    width: 440px;
-    padding: 25px;
-    background: #DDEEFE;
-    margin-top: 20px;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.modulo2__right {
-    width: 440px;
-    padding: 25px;
-    background: #D9F6F1;
-    margin-top: 20px;
-}
-
-.modulo2_img {
-    border-radius: 60px 60px 0 0;
-}
-
-/* END Modulo 2 */
-
-/* ****************** Modulo 3. my last freelance works */
-
 .writing__section-medium ul li::marker {
   color: #e92577;
   width: 9px;
@@ -114,6 +225,7 @@
   color: #000000;
   font-weight: bold;
 }
+
 .personal__blog {
   margin-left: 40%;
   display: flex;
@@ -127,36 +239,22 @@
   font-size: 29px;
   margin-bottom: 10px;
 }
+
 .personal__blog p:nth-child(2) {
   margin-top: 0;
 }
 
-.footer {
-  margin-left: 40%;
-  font-size: 16px;
-  color: #000000;
-  font-weight: bold;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
 
-.activities__icon1 {
-  position: absolute;
-  left: 123px;
-  top: 690px;
-}
-
-.activities__icon2 {
-  position: absolute;
-  right: 105px;
-  top: 500px;
-}
-
-/* fin Modulo 4 */
+/* Footer */
 
 .footer {
   margin-top: 40px;
   margin-right: 100px;
   margin-left: 165px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .footer-tex {
